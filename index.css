@@ -1,0 +1,201 @@
+.container{
+    width:1000px;
+    height: 70px;
+    margin: 0px auto;
+}
+#header{
+   
+    background-color: #131921;
+
+}
+#footer{
+    display: flex;
+    background-color: black;
+    width: auto;
+    height: 200px;
+    color: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding-left: 2%;
+    border-top: 1px solid red;
+    margin: auto;
+}
+.dropdown-menu .dropdown-item :hover{
+    background-color: red;
+}
+.slide-show img{
+    width: 50px;
+    height: auto;
+    color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+    background-color: #111;
+}
+#wrapper{
+    max-width: 1170px;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0%;
+}
+ul.products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul.products li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+}
+ul.products li .product-top{
+    position: relative;
+    overflow: hidden;
+}
+ul.products li .product-top .product-thumb{
+    display: block;
+}
+ul.products li:hover .product-top .product-thumb img{
+    filter: opacity(80%);
+}
+ul.products li .product-top .product-thumb img{
+    display: block;
+}
+ul.products li .product-top a.buy-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: #fff;
+    padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: -36px;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+}
+ul.products li:hover a.buy-now{
+    bottom: 0px;
+}
+ul.products li .product-info{
+    padding: 10px 0px;
+}
+ul.products li .product-info a{
+    display: block;
+    text-decoration: none;
+} 
+ul.products li .product-info a.product-cat{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: white;
+    padding: 3px 0px;
+}
+ul.products li .product-info a.product-name{
+    color:red;
+    padding: 3px 0px;
+}
+ul.products li .product-info .product-prize{
+    color: #f8f8f8;
+    padding: 2px 0px;
+    font-weight: 600;
+}
+h3{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 30px 0;
+}
+.introduce{
+    padding: 30px 30px;
+    margin-left: 30%;
+}
+.dropdown-menu .dropdown-content li :hover{
+    background-color: red;
+}
+#carouselExampleCaptions{
+    margin: 35px 130px;padding: 35px 130px;padding-top: 10px; margin-top: 10px;
+}
+.navbar-brand img{
+    width:80px; height:auto;
+}
+.active{
+    font-size: 15pt;
+}
+#navbarDropdown{
+    font-size: 15pt;color:black;
+}
+.dropdown-item{
+    font-size: 15pt;
+}
+.active img{
+    width: auto;
+    height: 500px;
+}
+
+.logo-search .d-flex{
+    margin-right: 100px;
+}
+.logo-search{
+    position: relative;
+}
+.logo-search a{
+    position: absolute;
+    right: 66px;
+    top: 0px;
+}
+.title-product{
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 20pt;
+    font-weight: bold;
+    border: 4px solid #f8f8f8;
+    padding-top: 2%;
+    width: 500px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+#strength{
+    margin: auto;
+    width: 1200px;
+    height: auto;
+    margin-bottom: 2%;
+}
+.strength-icon{
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    width: 50px;
+    font-size: 20pt;
+}
+.card-text{
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.new-product{
+    font-size: 25pt;
+    text-align: center;
+    margin: auto;
+    border-bottom: 5px solid red;
+    color: #f8f8f8;
+    width: 250px;
+}
